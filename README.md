@@ -41,6 +41,46 @@ ROC-AUC Score: The area under the receiver operating characteristic curve, repre
 Hyperparameter Tuning
 Hyperparameter tuning was performed for the Random Forest model using GridSearchCV. Parameters such as n_estimators, max_depth, and min_samples_split were optimized to improve the model's performance.
 
+## Visualizations
+
+The project includes several visualizations to aid in data understanding and model evaluation:
+
+### 1. **Correlation Matrix**
+
+![Correlation Matrix](Correlation_matrix.png)
+
+This heatmap shows the correlation between different features in the dataset. Highly correlated features might be redundant and could be removed to improve model performance.
+
+### 2. **Feature Importance**
+
+![Feature Importance](Feature_importance.png)
+
+This bar chart displays the importance of each feature in predicting diabetes, as determined by a Random Forest model.
+
+### 3. **Distribution of Features**
+
+![Distribution of Features](Distribution_features.png)
+
+Histograms are plotted to show the distribution of key features like glucose, BMI, and insulin levels. This helps to understand the spread and identify potential outliers.
+
+### 4. **Error Bars**
+
+![Error Bars](Error_bars.png)
+
+Error bars visualize the variability of model performance across different folds during cross-validation.
+
+### 5. **Pairplots**
+
+![Pairplots](Pairplots.png)
+
+Pairplots show the relationship between different features, color-coded by the diabetes outcome. This helps in understanding how features interact with each other and the target variable.
+
+### 6. **Learning Curves**
+
+![Learning Curves](Learningcurves_random_forest.png)
+
+Learning curves visualize how the model's training and validation performance evolve as more data is used. This helps in diagnosing whether the model is underfitting or overfitting.
+
 
 ## How to Run
 

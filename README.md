@@ -50,12 +50,9 @@ The models have been evaluated using various metrics to provide a comprehensive 
 ## How to Run
 
 ### Clone the repository:
-```bash
-git clone https://github.com/nikhil97353/diabetes-classification.git
-cd diabetes-classification
+    ```bash
+    git clone https://github.com/nikhil97353/diabetes-classification.git
 
-
-Install the required packages:
 
 pip install -r requirements.txt
 

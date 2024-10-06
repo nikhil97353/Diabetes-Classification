@@ -1,4 +1,4 @@
-# Diabetes-Prediction-
+# Diabetes-Classfication-
 **Diabetes Classification with Machine Learning**
 
 This project involves building and evaluating several machine learning models to classify whether a patient has diabetes based on several health indicators. The models are trained and tested on the famous Pima Indians Diabetes Dataset. The dataset contains information about patients such as Glucose levels, BMI, Blood Pressure, etc., and the goal is to predict the likelihood of diabetes (Outcome).

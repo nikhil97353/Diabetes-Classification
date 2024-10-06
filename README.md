@@ -1,5 +1,6 @@
 # Diabetes-Prediction-
 **Diabetes Classification with Machine Learning**
+
 This project involves building and evaluating several machine learning models to classify whether a patient has diabetes based on several health indicators. The models are trained and tested on the famous Pima Indians Diabetes Dataset. The dataset contains information about patients such as Glucose levels, BMI, Blood Pressure, etc., and the goal is to predict the likelihood of diabetes (Outcome).
 Dataset
 The dataset used is the Pima Indians Diabetes Dataset. It contains 768 samples with 8 features, and one target variable Outcome that indicates if the patient has diabetes (1) or not (0).
@@ -44,16 +45,7 @@ ROC-AUC Score: The area under the receiver operating characteristic curve, repre
 Hyperparameter Tuning
 Hyperparameter tuning was performed for the Random Forest model using GridSearchCV. Parameters such as n_estimators, max_depth, and min_samples_split were optimized to improve the model's performance.
 
-**Results**
-The performance of the models is summarized below:
 
-Model	Accuracy	Precision	Recall	F1 Score	ROC-AUC
-Logistic Regression	0.7468	0.6538	0.6182	0.6355	0.7182
-Decision Tree	0.6494	0.5091	0.5091	0.5091	0.6182
-Random Forest	0.7597	0.6500	0.7091	0.6783	0.7485
-Support Vector Machine	0.7662	0.6727	0.6727	0.6727	0.7455
-Neural Network	0.7532	0.6667	0.6182	0.6415	0.7232
-Random Forest (Tuned)	0.7468	0.6290	0.7091	0.6667	0.7384
 
 **Conclusion
 **Support Vector Machine (SVM) achieved the highest accuracy of 76.62%, followed closely by Random Forest and Neural Network.

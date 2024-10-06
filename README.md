@@ -1,5 +1,5 @@
 # Diabetes-Prediction-
-Diabetes Classification with Machine Learning
+##Diabetes Classification with Machine Learning
 This project involves building and evaluating several machine learning models to classify whether a patient has diabetes based on several health indicators. The models are trained and tested on the famous Pima Indians Diabetes Dataset. The dataset contains information about patients such as Glucose levels, BMI, Blood Pressure, etc., and the goal is to predict the likelihood of diabetes (Outcome).
 Dataset
 The dataset used is the Pima Indians Diabetes Dataset. It contains 768 samples with 8 features, and one target variable Outcome that indicates if the patient has diabetes (1) or not (0).
@@ -15,7 +15,7 @@ Age: Age in years
 Outcome: 0 (no diabetes), 1 (diabetes)
 You can find this dataset in the UCI Machine Learning Repository or other open-source platforms. For this project, it is stored as diabetes.csv.
 
-Data Preprocessing
+#Data Preprocessing
 Missing and Zero Values:
 
 Some features such as Glucose, BloodPressure, SkinThickness, Insulin, and BMI have values of zero, which are not realistic. These values are replaced with the median or mean values of their respective columns based on their distribution.
@@ -23,7 +23,7 @@ Duplicate Rows: Any duplicate rows were removed from the dataset.
 
 Feature Scaling: Features were normalized using the QuantileTransformer to ensure consistent scaling.
 
-Models Used
+#Models Used
 The following machine learning models were implemented and evaluated:
 
 Logistic Regression
@@ -33,7 +33,7 @@ Support Vector Machine (SVM)
 Neural Network (MLPClassifier)
 Additionally, Random Forest was further tuned using GridSearchCV for hyperparameter optimization.
 
-Evaluation
+#Evaluation
 For each model, the following metrics were computed to assess performance:
 
 Accuracy: The proportion of correctly predicted outcomes.
@@ -44,7 +44,7 @@ ROC-AUC Score: The area under the receiver operating characteristic curve, repre
 Hyperparameter Tuning
 Hyperparameter tuning was performed for the Random Forest model using GridSearchCV. Parameters such as n_estimators, max_depth, and min_samples_split were optimized to improve the model's performance.
 
-Results
+#Results
 The performance of the models is summarized below:
 
 Model	Accuracy	Precision	Recall	F1 Score	ROC-AUC

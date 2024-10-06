@@ -53,9 +53,10 @@ The models have been evaluated using various metrics to provide a comprehensive 
     ```bash
     git clone https://github.com/nikhil97353/diabetes-classification.git
 
+How to Install 
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Run the script:
 
-python diabetes_classification.py
+    python diabetes_classification.py

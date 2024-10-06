@@ -56,10 +56,9 @@ cd diabetes-classification
 
 
 Install the required packages:
-bash
-Copy code
+
 pip install -r requirements.txt
+
 Run the script:
-bash
-Copy code
+
 python diabetes_classification.py

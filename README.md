@@ -18,15 +18,12 @@ You can find this dataset in the UCI Machine Learning Repository or other open-s
 
 **Data Preprocessing**
 Missing and Zero Values:
-
 Some features such as Glucose, BloodPressure, SkinThickness, Insulin, and BMI have values of zero, which are not realistic. These values are replaced with the median or mean values of their respective columns based on their distribution.
 Duplicate Rows: Any duplicate rows were removed from the dataset.
-
 Feature Scaling: Features were normalized using the QuantileTransformer to ensure consistent scaling.
 
 **Models Used**
 The following machine learning models were implemented and evaluated:
-
 Logistic Regression
 Decision Tree
 Random Forest
@@ -34,9 +31,8 @@ Support Vector Machine (SVM)
 Neural Network (MLPClassifier)
 Additionally, Random Forest was further tuned using GridSearchCV for hyperparameter optimization.
 
-**Evaluation**
+Evaluation
 For each model, the following metrics were computed to assess performance:
-
 Accuracy: The proportion of correctly predicted outcomes.
 Precision: The proportion of true positive predictions out of all positive predictions.
 Recall: The proportion of true positive predictions out of all actual positives.
@@ -47,7 +43,7 @@ Hyperparameter tuning was performed for the Random Forest model using GridSearch
 
 
 
-**Conclusion
-**Support Vector Machine (SVM) achieved the highest accuracy of 76.62%, followed closely by Random Forest and Neural Network.
+Conclusion
+Support Vector Machine (SVM) achieved the highest accuracy of 76.62%, followed closely by Random Forest and Neural Network.
 Random Forest (Tuned) showed a good balance between precision and recall after hyperparameter tuning.
 The models have been evaluated using various metrics to provide a comprehensive understanding of their performance.

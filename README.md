@@ -42,8 +42,14 @@ Hyperparameter Tuning
 Hyperparameter tuning was performed for the Random Forest model using GridSearchCV. Parameters such as n_estimators, max_depth, and min_samples_split were optimized to improve the model's performance.
 
 
-
 Conclusion
 Support Vector Machine (SVM) achieved the highest accuracy of 76.62%, followed closely by Random Forest and Neural Network.
 Random Forest (Tuned) showed a good balance between precision and recall after hyperparameter tuning.
 The models have been evaluated using various metrics to provide a comprehensive understanding of their performance.
+
+## How to Run
+
+### Clone the repository:
+```bash
+git clone https://github.com/nikhil97353/diabetes-classification.git
+cd diabetes-classification
